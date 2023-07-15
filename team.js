@@ -25,20 +25,21 @@ function combineNumbers(arr) {
 
 var randomNumbers = generateRandomNumbers();
 var combinedNumber = combineNumbers(randomNumbers);
-console.log(combinedNumber);
-
-
-
-
+console.log(`컴퓨터가 숫자를 생성했습니다. 숫자를 입력하세요.`);
+// console.log(`${combinedNumber}`);//생성된 숫자
 
 // - 컴퓨터는 사용자가 입력한 세자리 숫자에 대해서, 아래의 규칙대로 스트라이크(S)와 볼(B)를 알려줍니다.
 
 //     - 숫자의 값과 위치가 모두 일치하면 S
-
+// if()
 
 //     - 숫자의 값은 일치하지만 위치가 틀렸으면 B
 
 
 // - 기회는 무제한이며, 몇번의 시도 후에 맞췄는지 기록됩니다.
+// console.log(`N번 시도했습니다.`)
 
 // - 숫자 3개를 모두 맞춘 경우, 게임을 종료합니다.
+
+//내가 입력한 정답 세자리와 숫자 세자리가 모두 맞는 경우
+// console.log("정답입니다!"); //게임 종료
